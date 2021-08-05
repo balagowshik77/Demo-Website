@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSite</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" /> -->
+    <script src="https://kit.fontawesome.com/96ccc2b110.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="nav-container">
+        <nav class="navbar">
+            <h1 id="navbar-logo">VAULT</h1>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="" class="nav-links">Home</a></li>
+                <li><a href="" class="nav-links">Services</a></li>
+                <li><a href="" class="nav-links">AboutUs</a></li>
+                <li><a href="" class="nav-links">ContactUs</a></li>
+                <li><a href="" class="nav-links nav-links-btn">Sign Up</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="main-container">
+            <div class="main-content">
+                <h1>Skyrocket your results</h1>
+                <p>Vault allows you to fully automated your buisness so you can focus on what's important
+                </p>
+                <button class="main-btn"><a class="btn-name" href="javacript:;">
+                    Get started
+                </a></button>
+            </div>
+            <div class="main-img-container">
+                <img src="img1.svg" alt="" id="main-img">
+            </div>
+        </div>
+    </div>
+    <div class="model" id="email-model">
+        <div class="model-content">
+            <span class="close-btn">&times;</span>
+            <div class="model-content-left">
+                <img src="/img2.svg" alt="just-image" id="model-img">
+            </div>
+            <div class="model-content-right">
+                <form action="/" method="GET" class="model-form" id="form">
+                    <h1>Get started with us today! Create your account by filling out the information below. </h1>
+                    <div class="form-validation">
+                        <input type="text" class="model-input" id="name" name='name' placeholder="Enter your name ">
+                        <p>Error Message</p>
+                    </div>
+                    <div class="form-validation">
+                        <input type="email" class="model-input" id="email" name='email' placeholder="Enter your email ">
+                        <p>Error Message</p>
+                    </div>
+                    <div class="form-validation">
+                        <input type="password" class="model-input" id="password" name='password' placeholder="Create a New-Password">
+                        <p>Error Message</p>
+                    </div>
+                    <div class="form-validation">
+                        <input type="password" class="model-input" id="password-confirm" name='password' placeholder="Confirm your password">
+                        <p>Error Message</p>
+                    </div>
+                    <input type="submit" class="model-input-btn" value="sign-Up">
+                    <span class="modal-input-login">Already have an account? Login <a href="/">here</a></span>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="services-section">
+        <div class="services-heading">
+            <h1>Check Out our Services Below</h1>
+        </div>
+        <div class="services">
+            <div class="services-cell">
+                <img src="/Gallery/img-1.jpg" alt="" class="services-cell-img">
+                <div class="services-cell-text">Digital Marketing</div>
+            </div>
+            <div class="services-cell">
+                <img src="/Gallery/img-2.jpg" alt="" class="services-cell-img">
+                <div class="services-cell-text">Web Development</div>
+            </div>
+            <div class="services-cell">
+                <img src="/Gallery/img-3.jpg" alt="" class="services-cell-img">
+                <div class="services-cell-text">Videography</div>
+            </div>
+            <div class="services-cell">
+                <img src="/Gallery/img-4.jpg" alt="" class="services-cell-img">
+                <div class="services-cell-text">Photography</div>
+            </div>
+            <div class="services-cell">
+                <img src="/Gallery/img-5.jpg" alt="" class="services-cell-img">
+                <div class="services-cell-text">Consulting</div>
+            </div>
+            <div class="services-cell">
+                <img src="/Gallery/img-6.jpg" alt="" class="services-cell-img">
+                <div class="services-cell-text">SEO</div>
+            </div>
+            <div class="services-cell">
+                <img src="/Gallery/img-7.jpg" alt="" class="services-cell-img">
+                <div class="services-cell-text">Graphics Design</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h2>About Us</h2>
+                <a href="#">Blog</a>
+                <a href="#">Demo</a>
+                <a href="#">Customer</a>
+                <a href="#">Investor</a>
+                <a href="#">Terms of services</a>
+            </div>
+            <div class="footer-heading footer-2">
+                <h2>ContactUs Us</h2>
+                <a href="#">Jobs</a>
+                <a href="#">Support</a>
+                <a href="#">Contact</a>
+                <a href="#">Sponsorships</a>
+            </div>
+            <div class="footer-heading footer-3">
+                <h2>Social Media</h2>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Youtube</a>
+                <a href="#">Twitter</a>
+            </div>
+            <div class="footer-email-form">
+                <h2>Join our newsletter</h2>
+                <input type="email" placeholder="Enter your email address" id="footer-email">
+                <input type="submit" value="Sign Up" id="footer-email-btn">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
